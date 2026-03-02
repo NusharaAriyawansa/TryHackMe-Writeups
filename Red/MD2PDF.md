@@ -2,7 +2,6 @@
 
 **Difficulty:** Easy  
 **Category:** SSRF (Server Side Request Forgery)  
-**Author:** YourName  
 **Date:** 28-02-2026  
 
 ---

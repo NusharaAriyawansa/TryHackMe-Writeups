@@ -2,7 +2,6 @@
 
 **Difficulty:** Easy  
 **Category:** Subdomain Enumeration / Subdomain Takeover  
-**Author:** YourName  
 **Date:** 27-02-2026  
 
 ---
