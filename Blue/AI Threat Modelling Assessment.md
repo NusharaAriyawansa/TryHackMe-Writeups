@@ -82,18 +82,9 @@ Attackers inject malicious or misleading data into training or stored datasets. 
 
 ---
 
-## Conclusion
-This assessment highlights key AI security risks in LLM-based systems, including prompt injection, sensitive information disclosure, and data poisoning.
-
-Mitigation strategies such as:
-- Input validation  
-- Anomaly detection  
-- Rate limiting  
-- Secure retrieval filtering  
-
-are essential to strengthen AI system security.
-
----
-
-## 📚 Reference
-- TryHackMe: AI Threat Modelling Assessment  
+## Lessons Learned
+- Prompt injection can manipulate LLM behavior if user input is not properly controlled.  
+- Retrieval systems and databases are key sources of sensitive data leakage risks.  
+- Data poisoning can silently impact model outputs over time.  
+- Rate limiting, authentication, and anomaly detection are essential for preventing abuse.  
+- AI threat modelling requires securing the full pipeline, not just the model itself.
