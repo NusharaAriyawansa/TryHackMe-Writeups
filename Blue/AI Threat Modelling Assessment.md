@@ -50,8 +50,6 @@ This lab focuses on identifying common security risks in LLM-based systems, incl
 
 ## 🛡️ Task 2 — Threat Modelling (Shield Placement)
 
----
-
 ### Prompt Injection
 
 **Affected Components:**
@@ -61,7 +59,6 @@ This lab focuses on identifying common security risks in LLM-based systems, incl
 **Description:**  
 User input is embedded into system prompts. If not properly controlled, attackers can inject malicious instructions that override system behavior, potentially leading to data leakage or tool misuse.
 
----
 
 ### Sensitive Data Leakage
 
@@ -73,7 +70,6 @@ User input is embedded into system prompts. If not properly controlled, attacker
 **Description:**  
 The model may expose sensitive information if retrieved data is not properly filtered or access-controlled. Weak safeguards in retrieval systems can lead to confidential data leakage.
 
----
 
 ### Data Poisoning
 
