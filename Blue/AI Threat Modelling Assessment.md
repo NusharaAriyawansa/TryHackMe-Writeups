@@ -56,7 +56,6 @@ This lab focuses on identifying common security risks in LLM-based systems, incl
 - Prompt
 - LLM Agent  
 
-**Description:**  
 User input is embedded into system prompts. If not properly controlled, attackers can inject malicious instructions that override system behavior, potentially leading to data leakage or tool misuse.
 
 
@@ -67,7 +66,6 @@ User input is embedded into system prompts. If not properly controlled, attacker
 - Retrieval System
 - Database  
 
-**Description:**  
 The model may expose sensitive information if retrieved data is not properly filtered or access-controlled. Weak safeguards in retrieval systems can lead to confidential data leakage.
 
 
@@ -77,7 +75,6 @@ The model may expose sensitive information if retrieved data is not properly fil
 - Retrieval System
 - Database  
 
-**Description:**  
 Attackers inject malicious or misleading data into training or stored datasets. This can influence model behavior and degrade output reliability over time.
 
 ---
